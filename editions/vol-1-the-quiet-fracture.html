@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Signal — Vol. 1: The Quiet Fracture</title>
 <meta name="description" content="We engineer machines to double our cognitive output, yet we still rely on ancient biological hardware to decide what matters. The bottleneck is no lon">
+<link rel="icon" type="image/png" href="../assets/innovlead-logo.png">
 <style>
   *{margin:0;padding:0;box-sizing:border-box;}
   body{background:#0f0f0f;font-family:Georgia,'Times New Roman',serif;color:#1a1a1a;padding:40px 14px;line-height:1.62;}
@@ -14,12 +15,12 @@
   .masthead h1{font-size:64px;letter-spacing:2px;line-height:1;margin:10px 0 6px;}
   .masthead .ed{font-style:italic;font-size:15px;color:#4a4233;}
   .body-wrap{padding:30px 44px 10px;}
-  .cold{font-size:19px;line-height:1.6;color:#2a2419;border-left:3px solid #7a2e1e;padding:4px 0 4px 20px;margin:8px 0 30px;font-style:italic;}
+  .cold{font-size:19px;line-height:1.6;color:#2a2419;border-left:3px solid #c89b3c;padding:4px 0 4px 20px;margin:8px 0 30px;font-style:italic;}
   .thread-label,.sec-head h2,.closing-label{font-family:Georgia,serif;}
   .thread{margin-bottom:14px;}
-  .thread-label{font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#7a2e1e;text-align:center;margin-bottom:10px;}
+  .thread-label{font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#c89b3c;text-align:center;margin-bottom:10px;}
   .thread p{font-size:16px;}
-  .thread p::first-letter{font-size:54px;float:left;line-height:46px;padding:4px 8px 0 0;font-weight:700;color:#7a2e1e;}
+  .thread p::first-letter{font-size:54px;float:left;line-height:46px;padding:4px 8px 0 0;font-weight:700;color:#c89b3c;}
   .divider{text-align:center;color:#8a7a5e;letter-spacing:6px;padding:24px 0;font-size:13px;}
   .sec-head{text-align:center;margin-bottom:18px;}
   .sec-head h2{font-size:32px;letter-spacing:1px;}
@@ -38,19 +39,30 @@
   .vault p{font-size:15.5px;}
   .vault p::first-letter{font-size:50px;float:left;line-height:42px;padding:4px 8px 0 0;font-weight:700;color:#5a3210;}
   .closing{text-align:center;padding:34px 20px;}
-  .closing-label{font-size:12px;letter-spacing:3px;text-transform:uppercase;color:#7a2e1e;margin-bottom:12px;}
+  .closing-label{font-size:12px;letter-spacing:3px;text-transform:uppercase;color:#c89b3c;margin-bottom:12px;}
   .closing p{font-size:21px;font-style:italic;line-height:1.5;color:#2a2419;}
-  footer{background:#0f0f0f;color:#c9bfa6;text-align:center;padding:24px;font-size:12px;letter-spacing:2px;}
-  footer .home{color:#c9bfa6;text-decoration:underline;}
-  @media(max-width:560px){.masthead h1{font-size:44px;}.body-wrap{padding:24px 22px 6px;}.vault{padding:20px;}}
+  .imprint{display:block;margin:0 auto 12px;height:40px;width:auto;filter:sepia(.65) opacity(.88);}
+  .byline{font-size:12px;color:#6b5e4a;font-style:italic;letter-spacing:.5px;margin-top:10px;}
+  .publisher{background:#0f0f0f;color:#c9bfa6;padding:22px 28px;display:flex;gap:18px;align-items:center;justify-content:center;border-top:1px solid #2a2a2a;}
+  .publisher img{height:44px;width:auto;filter:brightness(1.05);flex-shrink:0;}
+  .pub-text{font-family:Georgia,serif;line-height:1.45;}
+  .pub-name{font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:#e5d8b6;}
+  .pub-tag{font-size:11px;color:#9a8d72;font-style:italic;letter-spacing:.5px;margin:3px 0 4px;}
+  .pub-link{color:#c89b3c;text-decoration:none;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;}
+  .pub-link:hover{color:#e5b86a;}
+  footer{background:#000;color:#9a8d72;text-align:center;padding:16px;font-size:11px;letter-spacing:2px;}
+  .archive-link{color:#c89b3c;text-decoration:none;}
+  @media(max-width:560px){.masthead h1{font-size:44px;}.body-wrap{padding:24px 22px 6px;}.vault{padding:20px;}.publisher{flex-direction:column;text-align:center;padding:20px;}}
 </style>
 </head>
 <body>
 <div class="sheet">
   <header class="masthead">
-    <div class="kicker">InnovLead Canada · Intelligence for Spirit, Body &amp; Mind</div>
+    <img class="imprint" src="../assets/innovlead-logo.png" alt="InnovLead Canada">
+    <div class="kicker">InnovLead Canada &nbsp;·&nbsp; Twice-Weekly Intelligence</div>
     <h1>The Signal</h1>
     <div class="ed">Vol. 1 &nbsp;·&nbsp; May 22, 2026 &nbsp;·&nbsp; The Quiet Fracture</div>
+    <div class="byline">Edited by Tommy Fernandez &nbsp;·&nbsp; Co-Founder, InnovLead Canada</div>
   </header>
   <div class="body-wrap">
     <p class="cold">We engineer machines to double our cognitive output, yet we still rely on ancient biological hardware to decide what matters. The bottleneck is no longer the speed of computation, but the clarity of human intent.</p>
@@ -231,10 +243,15 @@
       <p>If your cognitive autonomy were slowly outsourced to an algorithm, at what exact percentage would you cease to be the author of your own life?</p>
     </div>
   </div>
-  <footer>
-    KNOWLEDGE IS SOVEREIGNTY. STAY SHARP.<br>
-    <a class="home" href="../index.html">The Signal — Archive</a>
-  </footer>
+  <div class="publisher">
+    <img src="../assets/innovlead-logo.png" alt="">
+    <div class="pub-text">
+      <div class="pub-name">Published by InnovLead Canada</div>
+      <div class="pub-tag">360° Strategic Platform &nbsp;·&nbsp; Protect · Structure · Transform · Scale</div>
+      <a class="pub-link" href="https://innovlead.ca">innovlead.ca →</a>
+    </div>
+  </div>
+  <footer>KNOWLEDGE IS SOVEREIGNTY &nbsp;·&nbsp; STAY SHARP &nbsp;·&nbsp; <a class="archive-link" href="../index.html">The Signal Archive</a></footer>
 </div>
 </body>
 </html>
