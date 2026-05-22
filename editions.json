@@ -1,3 +1,11 @@
 {
-  "editions": []
+  "editions": [
+    {
+      "slug": "vol-1-the-quiet-fracture",
+      "title": "The Quiet Fracture",
+      "volume": 1,
+      "date": "May 22, 2026",
+      "summary": "The architecture of decision-making is undergoing a quiet fracture. Look at battlefield adaptation in Ukraine or the shifting paradigms of AI-driven science; we are building system…"
+    }
+  ]
 }
